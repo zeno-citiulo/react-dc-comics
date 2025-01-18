@@ -117,3 +117,140 @@
 .dc-banner__item p {
   margin-left: 10px;
 }
+
+/* FOOTER */
+
+.dc-footer {
+  background-color: #333;
+  color: #fff;
+  background-image: url('/src/assets/img/footer-bg.jpg');
+  background-size: cover;
+}
+
+.dc-footer__top {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.dc-footer__column {
+  margin: 1rem;
+  min-width: 100px;
+  width: 30%;
+  align-items: flex-start;
+}
+
+.dc-footer__column h3 {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.dc-footer__column ul {
+  list-style: none;
+}
+
+.dc-footer__column ul li {
+  margin: 0.25rem 0;
+}
+
+.dc-footer__column ul li a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.3s;
+}
+
+.dc-footer__column ul li a:hover {
+  color: #fff;
+}
+
+.dc-footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  /* Per gestire schermi piccoli */
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.dc-footer__signup {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #329aef;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dc-footer__signup:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.bg-dc-footer {
+  width: 50px;
+  height: 50px;
+  background-image: url('/src/assets/img/dc-logo-bg.png');
+}
+
+.dc-footer__social {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.dc-footer__social span {
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+  text-transform: uppercase;
+  color: #329aef;
+}
+
+.dc-footer__social a.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.dc-footer__social .icon-facebook {
+  background-size: cover;
+  background-image: url('/src/assets/img/footer-facebook.png');
+}
+
+.dc-footer__social .icon-twitter {
+  background-size: cover;
+  background-image: url('/src/assets/img/footer-twitter.png');
+}
+
+.dc-footer__social .icon-youtube {
+  background-size: cover;
+  background-image: url('/src/assets/img/footer-youtube.png');
+}
+
+.dc-footer__social .icon-pinterest {
+  background-size: cover;
+  background-image: url('/src/assets/img/footer-pinterest.png');
+}
+
+.dc-footer__social .icon-periscope {
+  background-size: cover;
+  background-image: url('/src/assets/img/footer-periscope.png');
+}
+
+.dc-footer__social a.icon:hover {
+  background-color: #ccc;
+}
+
+.bg-footer {
+  background-color: #333;
+}
