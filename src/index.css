@@ -47,3 +47,73 @@
   color: #0177c1;
   border-bottom-color: #0177c1;
 }
+
+/* MAIN */
+
+.dc-banner {
+  text-align: left;
+  padding: 2rem 0;
+}
+
+.dc-banner h2 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.dc-banner--black {
+  background-color: #000;
+  color: #fff;
+}
+
+.dc-banner--blue {
+  background-color: #0177c1;
+  /* blu in stile DC */
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 0;
+  gap: 2rem;
+}
+
+.dc-banner__item {
+  display: flex;
+  align-items: center;
+}
+
+/* Finta icona “placeholder” */
+.dc-banner__item .icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.dc-banner__item .icon-digital-comics {
+  background-size: cover;
+  background-image: url('/src/assets/img/buy-comics-digital-comics.png');
+}
+
+.dc-banner__item .icon-merchandise {
+  background-size: cover;
+  background-image: url('/src/assets/img/buy-comics-merchandise.png');
+}
+
+.dc-banner__item .icon-subscription {
+  background-size: cover;
+  background-image: url('/src/assets/img/buy-comics-subscriptions.png');
+}
+
+.dc-banner__item .icon-shop-locator {
+  background-size: cover;
+  background-image: url('/src/assets/img/buy-comics-shop-locator.png');
+}
+
+.dc-banner__item .icon-power-visa {
+  background-size: cover;
+  background-image: url('/src/assets/img/buy-dc-power-visa.svg');
+}
+
+.dc-banner__item p {
+  margin-left: 10px;
+}
