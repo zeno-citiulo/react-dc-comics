@@ -1,10 +1,8 @@
 const NavBar = () => {
   return (
-    <navbar>
+    <>
       <header className="dc-header">
-        {/* Logo e menù in alto */}
         <div className="dc-header__logo">
-          {/* Sostituisci l’immagine con quella ufficiale DC o un link a tua scelta */}
           <img
             src="/src/assets/img/dc-logo.png"
             alt="DC Logo"
@@ -25,7 +23,9 @@ const NavBar = () => {
           </ul>
         </nav>
       </header>
-    </navbar>
+    </>
+
+
   )
 }
 

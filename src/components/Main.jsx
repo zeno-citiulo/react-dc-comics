@@ -1,9 +1,26 @@
+import React from 'react';
+import comics from '../comics';
+
 const Main = () => {
   return (
-    <main>
-      <section className="dc-banner dc-banner--black">
-        <h2>--&gt; Content goes here &lt;--</h2>
-      </section>
+    <>
+
+      <div className='jumbo'></div>
+
+      <main className="comics-container">
+        <div className="comics-grid">
+          {comics.map((comic) => (
+            <div className="comic-card" key={comic.id}>
+              <img src={comic.thumb} alt={comic.title} />
+              <h4>{comic.series}</h4>
+            </div>
+          ))}
+        </div>
+
+        <button className="load-more">
+          LOAD MORE
+        </button>
+      </main>
 
       <section className="dc-banner dc-banner--blue">
         <div className="dc-banner__item">
@@ -27,9 +44,15 @@ const Main = () => {
           <p>DC Power Visa</p>
         </div>
       </section>
-    </main>
+
+    </>
   )
 }
 
 export default Main;
+
+
+
+
+
 

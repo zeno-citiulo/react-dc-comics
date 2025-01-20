@@ -2,7 +2,6 @@ const Footer = () => {
   return (
 
     <>
-      {/* FOOTER CON COLONNE E BOTTONI */}
       <footer className="dc-footer">
         <div className="dc-footer__top">
           {/* Colonna DC COMICS */}

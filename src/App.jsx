@@ -11,11 +11,11 @@ const App = () => {
       <Main />
       <Footer />
 
-      <div className="App">
-        <Header links={comics} />
+      {/* <div className="App">
+        <NavBar links={comics} />
 
         <h2>Benvenuto nella DC Comics App!</h2>
-      </div>
+      </div> */}
     </>
   )
 }
